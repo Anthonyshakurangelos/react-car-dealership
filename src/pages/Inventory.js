@@ -64,7 +64,7 @@ function Inventory() {
           </Select>
         </FormControl>
         <FormControl>
-          <InputLabel>Filter By Make</InputLabel>
+          <InputLabel>Filter By</InputLabel>
           <Select value={filterBy} onChange={handleFilterChange}>
             <MenuItem value="">All</MenuItem>
             <MenuItem value="Toyota">Toyota</MenuItem>

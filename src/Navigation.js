@@ -5,7 +5,7 @@ import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 function Navigation({handlePageChange}) {
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: 'red' }}>
+    <AppBar position="static" sx={{ backgroundColor: '#004080' }}>
     <Toolbar>
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
         Car Dealership
@@ -20,7 +20,7 @@ function Navigation({handlePageChange}) {
       </Button>
       <Button color='inherit'
           onClick={() => handlePageChange("About")} >
-        About Us
+        Financing 
       </Button>
     </Toolbar>
   </AppBar>

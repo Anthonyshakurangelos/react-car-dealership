@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import About from './pages/About';
 import Inventory from './pages/Inventory';
 import Navigation from './Navigation';
+import Footer from "./Footer";
 
 
 function Container() {
@@ -38,7 +39,7 @@ function Container() {
         currentPage={currentPage}
       />
       {renderPage()}
-
+     <Footer/>
       </div>
 );
 }
