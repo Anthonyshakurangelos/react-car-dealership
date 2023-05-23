@@ -10,7 +10,9 @@ function Inventory() {
     { id: 3, make: 'Toyota', model: 'Supra', year: 2022, price: '$35,000', miles: '5,000', image: 'https://example.com/ford-mustang.jpg' },
     { id: 4, make: 'Toyota', model: 'Corolla', year: 2022, price: '$35,000', miles: '3,000', image: 'https://example.com/ford-mustang.jpg' },
     { id: 5, make: 'Honda', model: 'Civic', year: 2022, price: '$25,000', miles: '15,000', image: 'https://example.com/ford-mustang.jpg' },
-    { id: 5, make: 'Honda', model: 'Accord', year: 2018, price: '$13,000', miles: '80,000', image: 'https://example.com/ford-mustang.jpg' },
+    { id: 6, make: 'Honda', model: 'Accord', year: 2018, price: '$13,000', miles: '80,000', image: 'https://example.com/ford-mustang.jpg' },
+    { id: 7, make: 'Ford', model: 'Fusion', year: 2015, price: '$13,000', miles: '64,000', image: 'https://example.com/ford-mustang.jpg' },
+    { id: 8, make: 'Ford', model: 'Mustang', year: 2020, price: '$38,000', miles: '8,000', image: 'https://example.com/ford-mustang.jpg' },
    
     // Add more cars as needed
   ], []);
